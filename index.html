@@ -14,7 +14,24 @@
 			margin: 0; padding: 0; list-style: none; cursor: pointer;
 		}
 		 li {
-			float: left; padding:0px 15px; line-height: 40px;
+			float: left; padding:0px 15px;height: 40px; line-height: 40px;
+		}
+		
+		/*.menu2 {
+			position: absolute;
+			width: 100px;
+			height: 130px;
+			background-color: red;
+			display: none;
+		}
+		 */
+		.div { height: 40px;padding:0px 15px; }
+		.box1{
+			background-color: blue;
+			display: none;
+			position: absolute;
+			color: red;	
+			padding:0px 15px;		
 		}
 	</style>	
 	<script type="text/javascript" src="jquery-3.4.1.min.js"></script>
@@ -23,11 +40,26 @@
 <body>
 	<div class="menu">
 		<ul>
-			<li>Home</li>
-			<li>Menu 1</li>
-			<li>Menu 2</li>
-			<li>Menu 3</li>
-			<li>Menu 4</li>
+			<li>
+				<div class="box1">Menu 1</div>
+				<div class="div">Menu 1</div>								
+			</li>
+			<li >
+				<div class="box1">Menu 2</div>				
+				<div class="div">Menu 2</div>				
+			</li>
+			<li>
+				<div class="box1">Menu 3</div>
+				<div class="div">Menu 3</div>								
+			</li>
+			<li>
+				<div class="box1">Menu 4</div>
+				<div class="div">Menu 4</div>								
+			</li>
+			<li>
+				<div class="box1">Menu 5</div>
+				<div class="div">Menu 5</div>								
+			</li>
 		</ul>
 	</div>
 </body>
